@@ -27,5 +27,13 @@ public class PasswortChecker {
             return "Your Password should be at least 8 characters long";
         }
     }
+
+    public static String[] checkArrayPassword(String[] passwordList) {
+        String [] pswFeedback = new String[passwordList.length];
+        for (int i = 0; i < passwordList.length; i++) {
+            pswFeedback[i] = checkPassword(passwordList[i]);
+        }
+        return pswFeedback;
+    }
 }
 

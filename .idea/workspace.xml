@@ -60,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestClassTest">
+  <component name="RunManager" selected="JUnit.TestClassTest.shouldReturnInValid4TimesAndValid1Time">
     <configuration name="TestClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,21 +70,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassTest.shouldBeTrueIfPasswordContainsSmallLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClassTest.shouldReturnInValid3Times" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
-      <option name="METHOD_NAME" value="shouldBeTrueIfPasswordContainsSmallLetters" />
+      <option name="METHOD_NAME" value="shouldReturnInValid3Times" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassTest.shouldBeTrueIfPasswordIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClassTest.shouldReturnInValid4TimesAndValid1Time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
-      <option name="METHOD_NAME" value="shouldBeTrueIfPasswordIsValid" />
+      <option name="METHOD_NAME" value="shouldReturnInValid4TimesAndValid1Time" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClassTest.shouldReturnInValid4TimesAndValid1Time" />
+        <item itemvalue="JUnit.TestClassTest.shouldReturnInValid3Times" />
         <item itemvalue="JUnit.TestClassTest" />
         <item itemvalue="JUnit.TestClassTest.shouldReturnReminderForUpperLowerCases" />
         <item itemvalue="JUnit.TestClassTest.shouldReturnValidStringIfPasswordIsValid" />
-        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordIsValid" />
-        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsSmallLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653035033178</updated>
       <workItem from="1653035035174" duration="1527000" />
-      <workItem from="1653036849747" duration="17850000" />
+      <workItem from="1653036849747" duration="21545000" />
     </task>
     <servers />
   </component>
