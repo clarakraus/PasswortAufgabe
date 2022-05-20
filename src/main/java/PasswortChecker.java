@@ -1,35 +1,21 @@
 public class PasswortChecker {
-
-
-    public static boolean pwLength(String password) {
-        if (password.length() >= 8) {
-            return true;
-        } else {
-            return false;
-        }
+    private static boolean pwLength(String password) {
+        return password.length() >= 8;
     }
 
 
-    public static boolean pwNumber(String password) {
-        if (password.matches("(.*[0-9].*)")) {
-            return true;
-        } else {
-            return false;
-        }
+    private static boolean pwNumber(String password) {
+        return password.matches("(.*[0-9].*)");
     }
 
-    public static boolean pwLetter(String password) {
-        if (password.matches("(.*[a-z].*)") && password.matches("(.*[A-Z].*)")) {
-            return true;
-        } else {
-            return false;
-        }
+    private static boolean pwLetter(String password) {
+        return password.matches("(.*[a-z].*)") && password.matches("(.*[A-Z].*)");
     }
 
     public static String checkPassword(String password) {
-        if (pwLength(password) == true) {
-            if (pwNumber(password) == true) {
-                if (pwLetter(password) == true) {
+        if (pwLength(password)) {
+            if (pwNumber(password)) {
+                if (pwLetter(password)) {
                     return "Your password is valid";
                 } else {
                     return "Your password should contain lower AND uppercase letters";

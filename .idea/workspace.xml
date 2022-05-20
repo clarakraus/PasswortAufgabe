@@ -60,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestClassTest.shouldReturnReminderForUpperLowerCases">
+  <component name="RunManager" selected="JUnit.TestClassTest">
     <configuration name="TestClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClassTest.shouldReturnReminderForUpperLowerCases" />
         <item itemvalue="JUnit.TestClassTest" />
+        <item itemvalue="JUnit.TestClassTest.shouldReturnReminderForUpperLowerCases" />
         <item itemvalue="JUnit.TestClassTest.shouldReturnValidStringIfPasswordIsValid" />
         <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordIsValid" />
         <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsSmallLetters" />
@@ -129,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653035033178</updated>
       <workItem from="1653035035174" duration="1527000" />
-      <workItem from="1653036849747" duration="15098000" />
+      <workItem from="1653036849747" duration="17850000" />
     </task>
     <servers />
   </component>
