@@ -60,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsNumbers">
+  <component name="RunManager" selected="JUnit.TestClassTest.shouldReturnReminderForUpperLowerCases">
     <configuration name="TestClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,41 +70,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassTest.shouldBeFalseIfPasswordDoesNotContainsNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClassTest.shouldBeTrueIfPasswordContainsSmallLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
-      <option name="METHOD_NAME" value="shouldBeFalseIfPasswordDoesNotContainsNumbers" />
+      <option name="METHOD_NAME" value="shouldBeTrueIfPasswordContainsSmallLetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassTest.shouldBeFalseIfShorterThan8Char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClassTest.shouldBeTrueIfPasswordIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
-      <option name="METHOD_NAME" value="shouldBeFalseIfShorterThan8Char" />
+      <option name="METHOD_NAME" value="shouldBeTrueIfPasswordIsValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassTest.shouldBeTrueIfPasswordContainsNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClassTest.shouldReturnReminderForUpperLowerCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
-      <option name="METHOD_NAME" value="shouldBeTrueIfPasswordContainsNumbers" />
+      <option name="METHOD_NAME" value="shouldReturnReminderForUpperLowerCases" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassTest.shouldBeTrueIfStringLongerThan8Char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClassTest.shouldReturnValidStringIfPasswordIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
-      <option name="METHOD_NAME" value="shouldBeTrueIfStringLongerThan8Char" />
+      <option name="METHOD_NAME" value="shouldReturnValidStringIfPasswordIsValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsNumbers" />
-        <item itemvalue="JUnit.TestClassTest.shouldBeFalseIfPasswordDoesNotContainsNumbers" />
+        <item itemvalue="JUnit.TestClassTest.shouldReturnReminderForUpperLowerCases" />
         <item itemvalue="JUnit.TestClassTest" />
-        <item itemvalue="JUnit.TestClassTest.shouldBeFalseIfShorterThan8Char" />
-        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfStringLongerThan8Char" />
+        <item itemvalue="JUnit.TestClassTest.shouldReturnValidStringIfPasswordIsValid" />
+        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordIsValid" />
+        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsSmallLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653035033178</updated>
       <workItem from="1653035035174" duration="1527000" />
-      <workItem from="1653036849747" duration="7437000" />
+      <workItem from="1653036849747" duration="15098000" />
     </task>
     <servers />
   </component>
