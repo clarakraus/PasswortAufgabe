@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f13fbfa-9b2e-40f9-a146-cb24b9047d0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PasswortChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswortChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestClassTest">
+  <component name="RunManager" selected="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsNumbers">
     <configuration name="TestClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,11 +70,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClassTest.shouldBeFalseIfPasswordDoesNotContainsNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PasswortAufgabe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClassTest" />
+      <option name="METHOD_NAME" value="shouldBeFalseIfPasswordDoesNotContainsNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClassTest.shouldBeFalseIfShorterThan8Char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasswortAufgabe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClassTest" />
       <option name="METHOD_NAME" value="shouldBeFalseIfShorterThan8Char" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClassTest.shouldBeTrueIfPasswordContainsNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PasswortAufgabe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClassTest" />
+      <option name="METHOD_NAME" value="shouldBeTrueIfPasswordContainsNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,6 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfPasswordContainsNumbers" />
+        <item itemvalue="JUnit.TestClassTest.shouldBeFalseIfPasswordDoesNotContainsNumbers" />
         <item itemvalue="JUnit.TestClassTest" />
         <item itemvalue="JUnit.TestClassTest.shouldBeFalseIfShorterThan8Char" />
         <item itemvalue="JUnit.TestClassTest.shouldBeTrueIfStringLongerThan8Char" />
@@ -107,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653035033178</updated>
       <workItem from="1653035035174" duration="1527000" />
-      <workItem from="1653036849747" duration="5515000" />
+      <workItem from="1653036849747" duration="7437000" />
     </task>
     <servers />
   </component>

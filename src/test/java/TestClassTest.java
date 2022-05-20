@@ -32,5 +32,40 @@ class TestClassTest {
         assertEquals(actual, expected);
 
     }
+    @Test
+
+    void shouldBeTrueIfPasswordContainsNumbers(){
+        // given
+        String password = "Hallo123";
+        boolean expected =  true;
+        //when
+        boolean actual = PasswortChecker.pwNumber(password);
+        //then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+
+    void shouldBeFalseIfPasswordDoesNotContainsNumbers(){
+        // given
+        String password = "Halloserdftzguhijok";
+        boolean expected =  false;
+        //when
+        boolean actual = PasswortChecker.pwNumber(password);
+        //then
+        assertEquals(expected, actual);
+    }
+
+    @Test
+
+    void shouldBeTrueIfPasswordContainsSmallLetters(){
+        // given
+        String password = "sdfghjLKjH";
+        boolean expected = true;
+        //when
+        boolean actual = PasswortChecker.pwSmallLetter(password);
+        //then
+        assertEquals(expected, actual);
+    }
 
 }
